@@ -1,1 +1,54 @@
 /*  your css code here. If applicable */
+body
+{
+	background-color:rgb(135, 206, 235);
+}
+article p:first-child
+{
+	color:white;
+	background-color:black;
+	font-style:Arial;
+	margin-top:0px;
+	padding:0px;
+	
+}
+article p:last-child
+{
+	color:red;
+}
+article p:nth-child(2)
+{
+	color:green;
+	font-style:arial;
+}
+ul li:nth-child(4n+1)
+{
+	border:none;
+	padding:10px;
+	background-color:white;
+	font-size:22px;
+	width:50%;
+	
+}
+ul li:nth-child(2n+2)
+{
+	background-color:gray;
+	padding:10px;
+	width:50%;
+	
+	
+}
+ul li:nth-child(3)
+{
+	background-color:#FFC8CB;
+	padding:10px;
+	width:50%;
+}
+
+
+
+
+
+
+
+
